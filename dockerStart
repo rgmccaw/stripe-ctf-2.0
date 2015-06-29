@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#docker run -it -d -p 0.0.0.0:37485:80 level00
+#docker run -it -d -p 0.0.0.0:37486:80 level00
+#docker run -it -d -p 0.0.0.0:37487:80 level00
+#docker run -it -d -p 0.0.0.0:37488:80 level00
+#docker run -it -d -p 0.0.0.0:37489:80 level00
+#docker run -it -d -p 0.0.0.0:37490:80 level00
+#docker run -it -d -p 0.0.0.0:37491:80 level00
+#docker run -it -d -p 0.0.0.0:37492:80 level00
+docker run -it -d -p 0.0.0.0:37493:80 level00
+
+docker run -it -d -p 0.0.0.0:32658:80 level01
+docker run -it -d -p 0.0.0.0:35746:80 level02
+docker run -it -d -p 0.0.0.0:36479:5000 level03
