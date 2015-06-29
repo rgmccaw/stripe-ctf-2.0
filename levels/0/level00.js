@@ -3,7 +3,8 @@
 
 var express = require('express'), // Web framework
     mu = require('mu2'),          // Mustache.js templating
-    sqlite3 = require('sqlite3'); // SQLite (database) driver
+    sqlite3 = require('sqlite3'), // SQLite (database) driver
+    bodyParser = require('body-parser');
 
 // Look for templates in the current directory
 mu.root = __dirname;
@@ -19,7 +20,8 @@ db.run(
 
 // Create the server
 var app = express();
-app.use(express.bodyParser());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 function renderPage(res, variables) {
   var stream = mu.compileAndRender('level00.html', variables);
@@ -61,6 +63,6 @@ if (process.argv.length > 2) {
   console.log("Starting server on UNIX socket " + socket);
   app.listen(socket);
 } else {
-  console.log("Starting server at http://localhost:3000/");
-  app.listen(3000);
+  console.log("Starting server at http://localhost:80/");
+  app.listen(80);
 }

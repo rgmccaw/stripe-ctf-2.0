@@ -101,4 +101,4 @@ def login():
 
 if __name__ == '__main__':
     # In development: app.run(debug=True)
-    app.run()
+    app.run(host='0.0.0.0')

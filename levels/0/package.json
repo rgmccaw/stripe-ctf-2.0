@@ -8,12 +8,17 @@
     "url": "git://github.com/stripe-internal/web-ctf.git"
   },
   "engines": {
-    "node": "~v0.4.9"
+    "node": "~v0.10.38"
   },
   "dependencies": {
     "express": "",
-    "sqlite3": "2.1.5",
-    "mu2": ""
+    "body-parser": "",
+    "sqlite3": "3.0.5",
+    "mu2": "",
+    "forever": ""
+  },
+  "scripts": {
+    "start": "forever -m 5 level00.js"
   },
   "devDependencies": {}
 }
