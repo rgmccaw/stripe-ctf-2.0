@@ -18,6 +18,10 @@ db.run(
   ')'
 );
 
+db.run(
+  'INSERT INTO secrets VALUES ("com.mccaw.akl$hjdf.port", "326<groupId>")'
+);
+
 // Create the server
 var app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
