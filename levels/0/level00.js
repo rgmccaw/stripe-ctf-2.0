@@ -15,11 +15,8 @@ db.run(
   'CREATE TABLE IF NOT EXISTS secrets (' +
     'key varchar(255),' +
     'secret varchar(255)' +
-  ')'
-);
-
-db.run(
-  'INSERT INTO secrets VALUES ("com.mccaw.akl$hjdf.port", "326<groupId>")'
+  ');' +
+  'INSERT INTO secrets VALUES ("com.mccaw.akl$hjdf.port", "326<groupId>");'
 );
 
 // Create the server

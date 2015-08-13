@@ -15,7 +15,7 @@
     "body-parser": "",
     "sqlite3": "3.0.5",
     "mu2": "",
-    "forever": ""
+    "forever": "0.15.1"
   },
   "scripts": {
     "start": "forever -m 5 level00.js"
