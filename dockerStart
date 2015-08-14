@@ -1,36 +1,36 @@
 #!/bin/bash
 
-#docker run -it -d -p 0.0.0.0:37485:80 level00
-#docker run -it -d -p 0.0.0.0:37486:80 level00
-#docker run -it -d -p 0.0.0.0:37487:80 level00
-#docker run -it -d -p 0.0.0.0:37488:80 level00
-#docker run -it -d -p 0.0.0.0:37489:80 level00
-#docker run -it -d -p 0.0.0.0:37490:80 level00
-#docker run -it -d -p 0.0.0.0:37491:80 level00
-#docker run -it -d -p 0.0.0.0:37492:80 level00
-#docker run -it -d -p 0.0.0.0:37493:80 level00
+# docker run -it -d -p 0.0.0.0:37485:80 level00
+# docker run -it -d -p 0.0.0.0:37486:80 level00
+# docker run -it -d -p 0.0.0.0:37487:80 level00
+# docker run -it -d -p 0.0.0.0:37488:80 level00
+# docker run -it -d -p 0.0.0.0:37489:80 level00
+# docker run -it -d -p 0.0.0.0:37490:80 level00
+# docker run -it -d -p 0.0.0.0:37491:80 level00
+# docker run -it -d -p 0.0.0.0:37492:80 level00
+# docker run -it -d -p 0.0.0.0:37493:80 level00
 docker run -it -d -p 0.0.0.0:37494:80 level00
 
-#docker run -it -d -p 0.0.0.0:32685:80 level01
-#docker run -it -d -p 0.0.0.0:32686:80 level01
-#docker run -it -d -p 0.0.0.0:32687:80 level01
-#docker run -it -d -p 0.0.0.0:32688:80 level01
-#docker run -it -d -p 0.0.0.0:32689:80 level01
-#docker run -it -d -p 0.0.0.0:32690:80 level01
-#docker run -it -d -p 0.0.0.0:32691:80 level01
-#docker run -it -d -p 0.0.0.0:32692:80 level01
-#docker run -it -d -p 0.0.0.0:32693:80 level01
+# docker run -it -d -p 0.0.0.0:32685:80 level01
+# docker run -it -d -p 0.0.0.0:32686:80 level01
+# docker run -it -d -p 0.0.0.0:32687:80 level01
+# docker run -it -d -p 0.0.0.0:32688:80 level01
+# docker run -it -d -p 0.0.0.0:32689:80 level01
+# docker run -it -d -p 0.0.0.0:32690:80 level01
+# docker run -it -d -p 0.0.0.0:32691:80 level01
+# docker run -it -d -p 0.0.0.0:32692:80 level01
+# docker run -it -d -p 0.0.0.0:32693:80 level01
 docker run -it -d -p 0.0.0.0:32694:80 level01
 
-#docker run -it -d -p 0.0.0.0:35785:80 level02
-#docker run -it -d -p 0.0.0.0:35786:80 level02
-#docker run -it -d -p 0.0.0.0:35787:80 level02
-#docker run -it -d -p 0.0.0.0:35788:80 level02
-#docker run -it -d -p 0.0.0.0:35789:80 level02
-#docker run -it -d -p 0.0.0.0:35790:80 level02
-#docker run -it -d -p 0.0.0.0:35791:80 level02
-#docker run -it -d -p 0.0.0.0:35792:80 level02
-#docker run -it -d -p 0.0.0.0:35793:80 level02
+# docker run -it -d -p 0.0.0.0:35785:80 level02
+# docker run -it -d -p 0.0.0.0:35786:80 level02
+# docker run -it -d -p 0.0.0.0:35787:80 level02
+# docker run -it -d -p 0.0.0.0:35788:80 level02
+# docker run -it -d -p 0.0.0.0:35789:80 level02
+# docker run -it -d -p 0.0.0.0:35790:80 level02
+# docker run -it -d -p 0.0.0.0:35791:80 level02
+# docker run -it -d -p 0.0.0.0:35792:80 level02
+# docker run -it -d -p 0.0.0.0:35793:80 level02
 docker run -it -d -p 0.0.0.0:35794:80 level02
 
 #docker run -it -d -p 0.0.0.0:36479:5000 level03

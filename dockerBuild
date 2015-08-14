@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker build -t level00 ./levels/0/
-docker build -t level00 ./levels/1/
-docker build -t level00 ./levels/2/
-docker build -t level00 ./levels/3/
+docker build -t level01 ./levels/1/
+docker build -t level02 ./levels/2/
+# docker build -t level03 ./levels/3/
 

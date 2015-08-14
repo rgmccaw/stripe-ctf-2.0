@@ -1,4 +1,6 @@
 FROM node:0.10-onbuild
 
-EXPOSE 80
+RUN apt-get autoremove -y
+RUN apt-get clean -y
 
+EXPOSE 80

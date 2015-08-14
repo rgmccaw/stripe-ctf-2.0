@@ -14,4 +14,7 @@ RUN usermod -aG www-data nginx
 RUN rm -v /etc/nginx/conf.d/default.conf
 ADD default.conf /etc/nginx/conf.d/
 
+RUN apt-get autoremove -y
+RUN apt-get clean -y
+
 CMD service php5-fpm start && nginx && tail -f /usr/share/nginx/error.log

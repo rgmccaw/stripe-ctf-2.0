@@ -1,6 +1,5 @@
 FROM nginx
 COPY ./ /usr/share/nginx/html
-RUN chmod 777 /usr/share/nginx/html/uploads
 
 # Add PHP
 RUN apt-get update && apt-get install -y \
@@ -14,5 +13,10 @@ ADD www.conf /etc/php5/fpm/pool.d/www.conf
 RUN usermod -aG www-data nginx
 RUN rm -v /etc/nginx/conf.d/default.conf
 ADD default.conf /etc/nginx/conf.d/
+
+RUN apt-get autoremove -y
+RUN apt-get clean -y
+
+RUN chmod 777 /usr/share/nginx/html/uploads && rm /usr/share/nginx/html/uploads/empty
 
 CMD service php5-fpm start && nginx && tail -f /usr/share/nginx/error.log

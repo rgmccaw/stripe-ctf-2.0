@@ -15,9 +15,12 @@ db.run(
   'CREATE TABLE IF NOT EXISTS secrets (' +
     'key varchar(255),' +
     'secret varchar(255)' +
-  ');' +
-  'INSERT INTO secrets VALUES ("com.mccaw.akl$hjdf.port", "326<groupId>");'
+  ')'
 );
+
+setTimeout(function() {
+  db.run('INSERT INTO secrets VALUES ("com.mccaw.akl$hjdf.port", "326<groupId>")');
+}, 2000);
 
 // Create the server
 var app = express();
